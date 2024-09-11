@@ -1,0 +1,14 @@
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\bin\Debug\net8.0\PB201MovieApp.Core.deps.json
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\bin\Debug\net8.0\PB201MovieApp.Core.dll
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\bin\Debug\net8.0\PB201MovieApp.Core.pdb
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\PB201MovieApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\PB201MovieApp.Core.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\PB201MovieApp.Core.AssemblyInfo.cs
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\PB201MovieApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\PB201MovieApp.Core.dll
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\refint\PB201MovieApp.Core.dll
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\PB201MovieApp.Core.pdb
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\ref\PB201MovieApp.Core.dll
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\PB201MovieApp.Core.csproj.AssemblyReference.cache
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\bin\Debug\net8.0\PB201MovieApp.Core.runtimeconfig.json
+C:\Users\asus\Desktop\PB201MovieApp\src\PB201MovieApp.Core\obj\Debug\net8.0\PB201MovieApp.Core.genruntimeconfig.cache
