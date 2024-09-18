@@ -12,6 +12,7 @@ public static class ServiceRegistration
     {
         services.AddScoped<IMovieRepository, MovieRepository>();
         services.AddScoped<IGenreRepository, GenreRepository>();
+        services.AddScoped<ICommentRepository, CommentRepository>();
 
         services.AddDbContext<AppDbContext>(opt =>
         {

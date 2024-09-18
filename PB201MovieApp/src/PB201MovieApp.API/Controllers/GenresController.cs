@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PB201MovieApp.API.ApiResponses;
 using PB201MovieApp.Business.DTOs.GenreDtos;
 using PB201MovieApp.Business.Exceptions.CommonExceptions;
+using PB201MovieApp.Business.Exceptions.GenreExceptions;
 using PB201MovieApp.Business.Services.Interfaces;
 
 namespace PB201MovieApp.API.Controllers
@@ -19,7 +21,13 @@ namespace PB201MovieApp.API.Controllers
         [HttpGet("")]
         public async Task<IActionResult> GetAll()
         {
-            return Ok(await _genreService.GetByExpression());
+            var data = await _genreService.GetByExpression();
+            return Ok(new ApiResponse<ICollection<GenreGetDto>>
+            {
+                StatusCode = StatusCodes.Status200OK,
+                ErrorMessage = null,
+                Data = data
+            });
         }
 
         [HttpGet("{id}")]
@@ -32,17 +40,37 @@ namespace PB201MovieApp.API.Controllers
             }
             catch (InvalidIdException)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<GenreGetDto> 
+                { 
+                    StatusCode = StatusCodes.Status400BadRequest, //400
+                    ErrorMessage = "Id yanlisdir",
+                    Data = null
+                });
             }
-            catch(EntityNotFoundException)
+            catch(EntityNotFoundException ex)
             {
-                return NotFound();
+                return NotFound(new ApiResponse<GenreGetDto>
+                {
+                    StatusCode = ex.StatusCode,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                }) ;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<GenreGetDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
-            return Ok(dto);
+            return Ok(new ApiResponse<GenreGetDto>
+            {
+                Data = dto,
+                StatusCode = StatusCodes.Status200OK,
+                ErrorMessage = null
+            });
         }
 
         [HttpPost]
@@ -52,12 +80,31 @@ namespace PB201MovieApp.API.Controllers
             {
                 await _genreService.CreateAsync(dto);
             }
-            catch (Exception)
+            catch(GenreAlreadyExistException ex)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<GenreCreateDto>
+                {
+                    StatusCode = ex.StatusCode,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse<GenreCreateDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
 
-            return Ok();
+            return Ok(new ApiResponse<GenreCreateDto>
+            {
+                Data = null,
+                StatusCode= StatusCodes.Status200OK,
+                ErrorMessage = null
+            });
         }
 
         [HttpPut("{id}")]
@@ -67,17 +114,42 @@ namespace PB201MovieApp.API.Controllers
             {
                 await _genreService.UpdateAsync(id, dto);
             }
-            catch(InvalidIdException)
+            catch (InvalidIdException)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<GenreGetDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest, //400
+                    ErrorMessage = "Id yanlisdir",
+                    Data = null
+                });
             }
-            catch (EntityNotFoundException)
+            catch (EntityNotFoundException ex)
             {
-                return NotFound();
+                return NotFound(new ApiResponse<GenreGetDto>
+                {
+                    StatusCode = ex.StatusCode,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
-            catch (Exception)
+            catch (GenreAlreadyExistException ex)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<object>
+                {
+                    StatusCode = ex.StatusCode,
+                    ErrorMessage = ex.Message,
+                    Data = null,
+                    PropertyName = ex.PropertyName
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse<GenreCreateDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
 
             return NoContent();
@@ -90,20 +162,40 @@ namespace PB201MovieApp.API.Controllers
             {
                 await _genreService.DeleteAsync(id);
             }
-            catch(InvalidIdException)
+            catch (InvalidIdException)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<GenreGetDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest, //400
+                    ErrorMessage = "Id yanlisdir",
+                    Data = null
+                });
             }
-            catch (EntityNotFoundException)
+            catch (EntityNotFoundException ex)
             {
-                return NotFound();
+                return NotFound(new ApiResponse<GenreGetDto>
+                {
+                    StatusCode = ex.StatusCode,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<GenreGetDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
 
-            return Ok();
+            return Ok(new ApiResponse<object>
+            {
+                StatusCode = StatusCodes.Status200OK,
+                Data = null,
+                ErrorMessage = null
+            });
         }
     }
 }

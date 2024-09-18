@@ -1,42 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\",
+  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A99AAC15-1F87-42BE-AC3C-23001F296AF6}|src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj|c:\\users\\asus\\desktop\\pb201movieapp\\src\\pb201movieapp.business\\dtos\\moviedtos\\moviecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99AAC15-1F87-42BE-AC3C-23001F296AF6}|src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj|solutionrelative:src\\pb201movieapp.business\\dtos\\moviedtos\\moviecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9E1E75C-8950-4D20-9DBE-B576080CC126}|src\\PB201MovieApp.API\\PB201MovieApp.API.csproj|C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\pb201movieapp.api\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E1E75C-8950-4D20-9DBE-B576080CC126}|src\\PB201MovieApp.API\\PB201MovieApp.API.csproj|solutionrelative:src\\pb201movieapp.api\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99AAC15-1F87-42BE-AC3C-23001F296AF6}|src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj|c:\\users\\asus\\desktop\\pb201movieapp\\src\\pb201movieapp.business\\dtos\\moviedtos\\movieupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99AAC15-1F87-42BE-AC3C-23001F296AF6}|src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj|solutionrelative:src\\pb201movieapp.business\\dtos\\moviedtos\\movieupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|c:\\users\\asus\\desktop\\pb201-movieapp-api\\pb201movieapp\\src\\pb201movieapp.mvc\\apiresponsemessages\\apiresponsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|solutionrelative:src\\pb201movieapp.mvc\\apiresponsemessages\\apiresponsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{335EEB86-2D60-4E27-92D6-0453C3AEFABD}|src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj|c:\\users\\asus\\desktop\\pb201movieapp\\src\\pb201movieapp.core\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{335EEB86-2D60-4E27-92D6-0453C3AEFABD}|src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj|solutionrelative:src\\pb201movieapp.core\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\pb201movieapp.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|solutionrelative:src\\pb201movieapp.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99AAC15-1F87-42BE-AC3C-23001F296AF6}|src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj|c:\\users\\asus\\desktop\\pb201movieapp\\src\\pb201movieapp.business\\services\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99AAC15-1F87-42BE-AC3C-23001F296AF6}|src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj|solutionrelative:src\\pb201movieapp.business\\services\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|c:\\users\\asus\\desktop\\pb201-movieapp-api\\pb201movieapp\\src\\pb201movieapp.mvc\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|solutionrelative:src\\pb201movieapp.mvc\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9E1E75C-8950-4D20-9DBE-B576080CC126}|src\\PB201MovieApp.API\\PB201MovieApp.API.csproj|c:\\users\\asus\\desktop\\pb201movieapp\\src\\pb201movieapp.api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9E1E75C-8950-4D20-9DBE-B576080CC126}|src\\PB201MovieApp.API\\PB201MovieApp.API.csproj|C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\pb201movieapp.api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9E1E75C-8950-4D20-9DBE-B576080CC126}|src\\PB201MovieApp.API\\PB201MovieApp.API.csproj|solutionrelative:src\\pb201movieapp.api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99AAC15-1F87-42BE-AC3C-23001F296AF6}|src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj|c:\\users\\asus\\desktop\\pb201movieapp\\src\\pb201movieapp.business\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99AAC15-1F87-42BE-AC3C-23001F296AF6}|src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj|solutionrelative:src\\pb201movieapp.business\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9E1E75C-8950-4D20-9DBE-B576080CC126}|src\\PB201MovieApp.API\\PB201MovieApp.API.csproj|c:\\users\\asus\\desktop\\pb201-movieapp-api\\pb201movieapp\\src\\pb201movieapp.api\\apiresponses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E1E75C-8950-4D20-9DBE-B576080CC126}|src\\PB201MovieApp.API\\PB201MovieApp.API.csproj|solutionrelative:src\\pb201movieapp.api\\apiresponses\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9E1E75C-8950-4D20-9DBE-B576080CC126}|src\\PB201MovieApp.API\\PB201MovieApp.API.csproj|c:\\users\\asus\\desktop\\pb201movieapp\\src\\pb201movieapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9E1E75C-8950-4D20-9DBE-B576080CC126}|src\\PB201MovieApp.API\\PB201MovieApp.API.csproj|solutionrelative:src\\pb201movieapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\pb201movieapp.mvc\\viewmodels\\movievms\\moviecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|solutionrelative:src\\pb201movieapp.mvc\\viewmodels\\movievms\\moviecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D406C220-2D5E-42D4-A1CB-B692D77B9A2B}|src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj|c:\\users\\asus\\desktop\\pb201movieapp\\src\\pb201movieapp.dal\\repositories\\movieimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D406C220-2D5E-42D4-A1CB-B692D77B9A2B}|src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj|solutionrelative:src\\pb201movieapp.dal\\repositories\\movieimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\pb201movieapp.mvc\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|solutionrelative:src\\pb201movieapp.mvc\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{335EEB86-2D60-4E27-92D6-0453C3AEFABD}|src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj|c:\\users\\asus\\desktop\\pb201movieapp\\src\\pb201movieapp.core\\repositories\\imovieimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{335EEB86-2D60-4E27-92D6-0453C3AEFABD}|src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj|solutionrelative:src\\pb201movieapp.core\\repositories\\imovieimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\pb201movieapp.mvc\\viewmodels\\commentvms\\commentgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|solutionrelative:src\\pb201movieapp.mvc\\viewmodels\\commentvms\\commentgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\pb201movieapp.mvc\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|solutionrelative:src\\pb201movieapp.mvc\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\pb201movieapp.mvc\\viewmodels\\movievms\\moviegetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|solutionrelative:src\\pb201movieapp.mvc\\viewmodels\\movievms\\moviegetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\pb201movieapp.mvc\\viewmodels\\movieimagevm\\movieimagegetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446657AA-6776-4AB7-ABBA-476137344996}|src\\PB201MovieApp.MVC\\PB201MovieApp.MVC.csproj|solutionrelative:src\\pb201movieapp.mvc\\viewmodels\\movieimagevm\\movieimagegetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,124 +61,158 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.MVC\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "src\\PB201MovieApp.MVC\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAAMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:47:01.906Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiResponseMessage.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ApiResponseMessages\\ApiResponseMessage.cs",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.MVC\\ApiResponseMessages\\ApiResponseMessage.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ApiResponseMessages\\ApiResponseMessage.cs",
+              "RelativeToolTip": "src\\PB201MovieApp.MVC\\ApiResponseMessages\\ApiResponseMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:04:42.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\ApiResponses\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.API\\ApiResponses\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\ApiResponses\\ApiResponse.cs",
+              "RelativeToolTip": "src\\PB201MovieApp.API\\ApiResponses\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:03:11.902Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\Entities\\Movie.cs",
-              "RelativeDocumentMoniker": "src\\PB201MovieApp.Core\\Entities\\Movie.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\Entities\\Movie.cs",
-              "RelativeToolTip": "src\\PB201MovieApp.Core\\Entities\\Movie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\Views\\Movie\\Create.cshtml",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.MVC\\Views\\Movie\\Create.cshtml",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\Views\\Movie\\Create.cshtml",
+              "RelativeToolTip": "src\\PB201MovieApp.MVC\\Views\\Movie\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T12:35:06.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ViewModels\\MovieVMs\\MovieCreateVM.cs",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.MVC\\ViewModels\\MovieVMs\\MovieCreateVM.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ViewModels\\MovieVMs\\MovieCreateVM.cs",
+              "RelativeToolTip": "src\\PB201MovieApp.MVC\\ViewModels\\MovieVMs\\MovieCreateVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:54:35.391Z",
+              "WhenOpened": "2024-09-17T12:14:15.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenresController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\Controllers\\GenresController.cs",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.API\\Controllers\\GenresController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\Controllers\\GenresController.cs",
+              "RelativeToolTip": "src\\PB201MovieApp.API\\Controllers\\GenresController.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAH0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:05:38.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.MVC\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "src\\PB201MovieApp.MVC\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:52:59.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommentGetVM.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ViewModels\\CommentVMs\\CommentGetVM.cs",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.MVC\\ViewModels\\CommentVMs\\CommentGetVM.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ViewModels\\CommentVMs\\CommentGetVM.cs",
+              "RelativeToolTip": "src\\PB201MovieApp.MVC\\ViewModels\\CommentVMs\\CommentGetVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:49:48.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovieImageGetVM.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ViewModels\\MovieImageVM\\MovieImageGetVM.cs",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.MVC\\ViewModels\\MovieImageVM\\MovieImageGetVM.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ViewModels\\MovieImageVM\\MovieImageGetVM.cs",
+              "RelativeToolTip": "src\\PB201MovieApp.MVC\\ViewModels\\MovieImageVM\\MovieImageGetVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:49:32.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovieGetVM.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ViewModels\\MovieVMs\\MovieGetVM.cs",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.MVC\\ViewModels\\MovieVMs\\MovieGetVM.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\ViewModels\\MovieVMs\\MovieGetVM.cs",
+              "RelativeToolTip": "src\\PB201MovieApp.MVC\\ViewModels\\MovieVMs\\MovieGetVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:48:15.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "src\\PB201MovieApp.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "src\\PB201MovieApp.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAHQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:47:35.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.API\\Controllers\\MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "src\\PB201MovieApp.API\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.API\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "src\\PB201MovieApp.API\\Controllers\\MoviesController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAAEgAAAANAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAiwHQAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:47:43.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FileManager.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\Utilities\\FileManager.cs",
-              "RelativeDocumentMoniker": "src\\PB201MovieApp.Business\\Utilities\\FileManager.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\Utilities\\FileManager.cs",
-              "RelativeToolTip": "src\\PB201MovieApp.Business\\Utilities\\FileManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAACAAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:37:05.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\DTOs\\MovieDtos\\MovieUpdateDto.cs",
-              "RelativeDocumentMoniker": "src\\PB201MovieApp.Business\\DTOs\\MovieDtos\\MovieUpdateDto.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\DTOs\\MovieDtos\\MovieUpdateDto.cs",
-              "RelativeToolTip": "src\\PB201MovieApp.Business\\DTOs\\MovieDtos\\MovieUpdateDto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAB0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:33:55.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\PB201MovieApp.API\\Program.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.API\\Program.cs",
-              "RelativeToolTip": "src\\PB201MovieApp.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:32:47.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MovieCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\DTOs\\MovieDtos\\MovieCreateDto.cs",
-              "RelativeDocumentMoniker": "src\\PB201MovieApp.Business\\DTOs\\MovieDtos\\MovieCreateDto.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\DTOs\\MovieDtos\\MovieCreateDto.cs",
-              "RelativeToolTip": "src\\PB201MovieApp.Business\\DTOs\\MovieDtos\\MovieCreateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:29:27.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\Services\\Implementations\\MovieService.cs",
-              "RelativeDocumentMoniker": "src\\PB201MovieApp.Business\\Services\\Implementations\\MovieService.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\Services\\Implementations\\MovieService.cs",
-              "RelativeToolTip": "src\\PB201MovieApp.Business\\Services\\Implementations\\MovieService.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAAAF4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:29:15.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MovieImageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.DAL\\Repositories\\MovieImageRepository.cs",
-              "RelativeDocumentMoniker": "src\\PB201MovieApp.DAL\\Repositories\\MovieImageRepository.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.DAL\\Repositories\\MovieImageRepository.cs",
-              "RelativeToolTip": "src\\PB201MovieApp.DAL\\Repositories\\MovieImageRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:27:49.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IMovieImageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\Repositories\\IMovieImageRepository.cs",
-              "RelativeDocumentMoniker": "src\\PB201MovieApp.Core\\Repositories\\IMovieImageRepository.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\Repositories\\IMovieImageRepository.cs",
-              "RelativeToolTip": "src\\PB201MovieApp.Core\\Repositories\\IMovieImageRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T12:27:12.3Z",
+              "WhenOpened": "2024-09-17T11:44:39.308Z",
               "EditorCaption": ""
             }
           ]

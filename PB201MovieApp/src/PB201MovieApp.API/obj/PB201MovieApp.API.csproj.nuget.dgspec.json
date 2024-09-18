@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.API\\PB201MovieApp.API.csproj": {}
+    "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\PB201MovieApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.API\\PB201MovieApp.API.csproj": {
+    "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\PB201MovieApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.API\\PB201MovieApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\PB201MovieApp.API.csproj",
         "projectName": "PB201MovieApp.API",
-        "projectPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.API\\PB201MovieApp.API.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\PB201MovieApp.API.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.API\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj": {
-                "projectPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj"
+              "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj": {
+                "projectPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj"
               }
             }
           }
@@ -49,6 +49,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -77,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj": {
+    "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj",
         "projectName": "PB201MovieApp.Business",
-        "projectPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Business\\PB201MovieApp.Business.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Business\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,8 +109,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj": {
-                "projectPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj"
+              "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj"
               }
             }
           }
@@ -151,14 +159,14 @@
         }
       }
     },
-    "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj": {
+    "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj",
         "projectName": "PB201MovieApp.Core",
-        "projectPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -192,6 +200,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -222,14 +234,14 @@
         }
       }
     },
-    "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj": {
+    "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj",
         "projectName": "PB201MovieApp.DAL",
-        "projectPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.DAL\\PB201MovieApp.DAL.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.DAL\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -246,8 +258,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj": {
-                "projectPath": "C:\\Users\\asus\\Desktop\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj"
+              "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj": {
+                "projectPath": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.Core\\PB201MovieApp.Core.csproj"
               }
             }
           }

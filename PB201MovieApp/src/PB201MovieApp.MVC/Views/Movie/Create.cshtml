@@ -1,0 +1,48 @@
+﻿@using PB201MovieApp.MVC.ViewModels.GenreVMs
+@using PB201MovieApp.MVC.ViewModels.MovieVMs
+@model MovieCreateVM
+
+<div class="container-fluid">
+    <h1>Create</h1>
+    <form method="post" enctype="multipart/form-data">
+        <div class="row">
+            <div class="mb-3 col-md-4">
+                <label class="form-label">Title</label>
+                <input asp-for="Title" class="form-control" aria-describedby="emailHelp">
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+           
+            <div class="mb-3 col-md-4">
+                <label class="form-label">Description</label>
+                <textarea asp-for="Desc" class="form-control"></textarea>
+                <span asp-validation-for="Desc" class="text-danger"></span>
+            </div>
+            <div class="mb-3 col-md-2">
+                <label class="form-label">IsDeleted</label>
+                <input asp-for="isDeleted" type="checkbox" >
+                <span asp-validation-for="isDeleted" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mb-3 col-md-6">
+                <label class="form-label">Genres</label>
+                <select class="form-control" asp-for="GenreId" asp-items="@(new SelectList(ViewBag.Genres,"Id","Name"))">
+                    <option selected disabled>Choose Genre</option>
+                </select>
+                <span asp-validation-for="GenreId" class="text-danger"></span>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="mb-3 col-md-4">
+                <label class="form-label">Poster Image</label>
+                <input asp-for="ImageFile" class="form-control" aria-describedby="emailHelp">
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+        </div>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <button type="submit" class="btn btn-primary">Create</button>
+        <a asp-action="index" class="btn btn-light">Cancel</a>
+    </form>
+
+</div>

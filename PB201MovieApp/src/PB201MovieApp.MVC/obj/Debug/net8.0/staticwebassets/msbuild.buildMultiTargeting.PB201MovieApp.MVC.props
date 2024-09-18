@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PB201MovieApp.MVC.props" />
+</Project>

@@ -88,7 +88,6 @@ public class MovieService : IMovieService
         if (data is null) throw new EntityNotFoundException(404, "EntityNotFound");
 
         MovieGetDto dto = _mapper.Map<MovieGetDto>(data);
-
         return dto;
     }
 

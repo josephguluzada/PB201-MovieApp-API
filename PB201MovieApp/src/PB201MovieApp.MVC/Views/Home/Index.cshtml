@@ -1,0 +1,15 @@
+﻿@using PB201MovieApp.MVC.ViewModels.GenreVMs
+@model List<GenreGetVM>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="text-danger">@TempData["Err"]</h1>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.Name - @item.CreatedDate - @item.ModifiedDate <a asp-action="update" asp-route-id="@item.Id" class="btn btn-primary">Update</a> <a asp-action="delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a></li>
+    }
+</ul>
+

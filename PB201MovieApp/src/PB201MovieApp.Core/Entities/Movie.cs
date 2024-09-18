@@ -8,4 +8,5 @@ public class Movie : BaseEntity
     public Genre Genre { get; set; }
 
     public ICollection<MovieImage> MovieImages { get; set; }
+    public ICollection<Comment> Comments { get; set; }
 }

@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using PB201MovieApp.API.ApiResponses;
 using PB201MovieApp.Business.DTOs.MovieDtos;
 using PB201MovieApp.Business.Exceptions.CommonExceptions;
 using PB201MovieApp.Business.Services.Interfaces;
-using PB201MovieApp.Core.Entities;
 
 namespace PB201MovieApp.API.Controllers
 {
@@ -17,11 +16,16 @@ namespace PB201MovieApp.API.Controllers
         {
             _movieService = movieService;
         }
-
         [HttpGet("")]
         public async Task<IActionResult> GetAll()
         {
-            return Ok(await _movieService.GetByExpression(true,null,"Genre"));
+            return Ok(new ApiResponse<ICollection<MovieGetDto>>
+            {
+                Data = await _movieService.GetByExpression(true, null, "Genre", "MovieImages", "Comments.AppUser"),
+                ErrorMessage = null,
+                PropertyName = null,
+                StatusCode = StatusCodes.Status200OK
+            });
         }
 
         [HttpPost]
@@ -32,36 +36,59 @@ namespace PB201MovieApp.API.Controllers
             {
                 movie = await _movieService.CreateAsync(dto);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<object>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
 
-            return Created(new Uri($"api/movies/{movie.Id}", UriKind.Relative),movie);
+            return Created();
         }
-
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
             MovieGetDto dto = null;
             try
             {
-                dto = await _movieService.GetById(id);
+                dto = await _movieService.GetSingleByExpression(false, x=>x.Id == id, "Genre", "MovieImages", "Comments.AppUser");
             }
             catch (InvalidIdException)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<MovieGetDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest, //400
+                    ErrorMessage = "Id yanlisdir",
+                    Data = null
+                });
             }
-            catch(EntityNotFoundException)
+            catch (EntityNotFoundException ex)
             {
-                return NotFound();
+                return NotFound(new ApiResponse<MovieGetDto>
+                {
+                    StatusCode = ex.StatusCode,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<MovieGetDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
 
-            return Ok(dto);
+            return Ok(new ApiResponse<MovieGetDto>
+            {
+                Data = dto,
+                StatusCode = StatusCodes.Status200OK
+            });
         }
 
         [HttpPut("{id}")]
@@ -73,15 +100,30 @@ namespace PB201MovieApp.API.Controllers
             }
             catch (InvalidIdException)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<MovieUpdateDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest, //400
+                    ErrorMessage = "Id yanlisdir",
+                    Data = null
+                });
             }
-            catch (EntityNotFoundException)
+            catch (EntityNotFoundException ex)
             {
-                return NotFound();
+                return NotFound(new ApiResponse<MovieUpdateDto>
+                {
+                    StatusCode = ex.StatusCode,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<MovieUpdateDto>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
 
             return NoContent();
@@ -96,15 +138,30 @@ namespace PB201MovieApp.API.Controllers
             }
             catch (InvalidIdException)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<object>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest, //400
+                    ErrorMessage = "Id yanlisdir",
+                    Data = null
+                });
             }
-            catch (EntityNotFoundException)
+            catch (EntityNotFoundException ex)
             {
-                return NotFound();
+                return NotFound(new ApiResponse<object>
+                {
+                    StatusCode = ex.StatusCode,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(new ApiResponse<object>
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    ErrorMessage = ex.Message,
+                    Data = null
+                });
             }
 
             return Ok();

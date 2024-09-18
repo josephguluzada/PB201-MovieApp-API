@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using PB201MovieApp.Business.DTOs.GenreDtos;
 using PB201MovieApp.Business.Exceptions.CommonExceptions;
+using PB201MovieApp.Business.Exceptions.GenreExceptions;
 using PB201MovieApp.Business.Services.Interfaces;
 using PB201MovieApp.Core.Entities;
 using PB201MovieApp.Core.Repositories;
@@ -22,6 +24,7 @@ public class GenreService : IGenreService
 
     public async Task CreateAsync(GenreCreateDto dto)
     {
+        if(await _genreRepository.Table.AnyAsync(x=>x.Name.Trim().ToLower() == dto.Name.Trim().ToLower())) throw new GenreAlreadyExistException(StatusCodes.Status400BadRequest,"Name","Genre already exists");
         Genre data = _mapper.Map<Genre>(dto);
 
         data.CreatedDate = DateTime.Now;
@@ -37,7 +40,7 @@ public class GenreService : IGenreService
 
         var data = await _genreRepository.GetByIdAsync(id);
 
-        if(data is null) throw new EntityNotFoundException();
+        if(data is null) throw new EntityNotFoundException(404, "Genre not found");
 
         _genreRepository.Delete(data);
         await _genreRepository.CommitAsync();
@@ -52,11 +55,11 @@ public class GenreService : IGenreService
 
     public async Task<GenreGetDto> GetById(int id)
     {
-        if(id<1) throw new InvalidIdException();
+        if(id<1) throw new InvalidIdException("Id yanlishhhhdir");
 
         var data = await _genreRepository.GetByIdAsync(id);
 
-        if (data is null) throw new EntityNotFoundException();
+        if (data is null) throw new EntityNotFoundException(404,"Genre not found!");
 
         return _mapper.Map<GenreGetDto>(data);
     }
@@ -76,7 +79,7 @@ public class GenreService : IGenreService
     public async Task UpdateAsync(int id, GenreUpdateDto dto)
     {
         if (id < 1) throw new InvalidIdException();
-
+        if (await _genreRepository.Table.AnyAsync(x => x.Name.Trim().ToLower() == dto.Name.Trim().ToLower())) throw new GenreAlreadyExistException(StatusCodes.Status400BadRequest, "Name", "Genre already exists");
         var data = await _genreRepository.GetByIdAsync(id);
 
         if (data is null) throw new EntityNotFoundException();
