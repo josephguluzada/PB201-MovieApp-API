@@ -6,6 +6,8 @@ C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\bin
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\bin\Debug\net8.0\PB201MovieApp.MVC.runtimeconfig.json
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\bin\Debug\net8.0\PB201MovieApp.MVC.dll
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\bin\Debug\net8.0\PB201MovieApp.MVC.pdb
+C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\bin\Debug\net8.0\RestSharp.dll
+C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201MovieApp.MVC.csproj.AssemblyReference.cache
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201MovieApp.MVC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201MovieApp.MVC.AssemblyInfoInputs.cache
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201MovieApp.MVC.AssemblyInfo.cs
@@ -24,11 +26,9 @@ C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\scopedcss\bundle\PB201MovieApp.MVC.styles.css
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\scopedcss\projectbundle\PB201MovieApp.MVC.bundle.scp.css
+C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201Mov.94A39A49.Up2Date
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201MovieApp.MVC.dll
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\refint\PB201MovieApp.MVC.dll
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201MovieApp.MVC.pdb
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201MovieApp.MVC.genruntimeconfig.cache
 C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\ref\PB201MovieApp.MVC.dll
-C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\bin\Debug\net8.0\RestSharp.dll
-C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201MovieApp.MVC.csproj.AssemblyReference.cache
-C:\Users\asus\Desktop\PB201-MovieApp-API\PB201MovieApp\src\PB201MovieApp.MVC\obj\Debug\net8.0\PB201Mov.94A39A49.Up2Date

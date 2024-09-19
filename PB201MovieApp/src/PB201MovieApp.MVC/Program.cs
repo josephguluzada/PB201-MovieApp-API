@@ -1,3 +1,5 @@
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using PB201MovieApp.MVC;
 namespace PB201MovieApp.MVC
 {
     public class Program
@@ -8,7 +10,8 @@ namespace PB201MovieApp.MVC
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddRegisterService();
+            builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

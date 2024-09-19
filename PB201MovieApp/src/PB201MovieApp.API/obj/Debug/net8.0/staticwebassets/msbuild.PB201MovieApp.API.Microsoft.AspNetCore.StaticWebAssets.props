@@ -1,5 +1,37 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\027ab981-360d-499e-9a21-66e3951294c248e4f201-b6fd-4170-a86c-3b6fae625f04product-details-5.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>PB201MovieApp.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PB201MovieApp.API</BasePath>
+      <RelativePath>Uploads/027ab981-360d-499e-9a21-66e3951294c248e4f201-b6fd-4170-a86c-3b6fae625f04product-details-5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\027ab981-360d-499e-9a21-66e3951294c248e4f201-b6fd-4170-a86c-3b6fae625f04product-details-5.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\961ee410-6f4e-4473-a0bb-fec1e3f218ba3e8c87aa-6469-43dd-b20d-832b655744b5product-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>PB201MovieApp.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PB201MovieApp.API</BasePath>
+      <RelativePath>Uploads/961ee410-6f4e-4473-a0bb-fec1e3f218ba3e8c87aa-6469-43dd-b20d-832b655744b5product-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\961ee410-6f4e-4473-a0bb-fec1e3f218ba3e8c87aa-6469-43dd-b20d-832b655744b5product-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\e3080585-a92c-4121-b77c-8b3dc9b45100product-9.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>PB201MovieApp.API</SourceId>

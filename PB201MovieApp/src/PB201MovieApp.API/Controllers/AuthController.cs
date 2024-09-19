@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using PB201MovieApp.API.ApiResponses;
 using PB201MovieApp.Business.DTOs.TokenDtos;
 using PB201MovieApp.Business.DTOs.UserDtos;
 using PB201MovieApp.Business.Services.Interfaces;
@@ -57,8 +58,14 @@ namespace PB201MovieApp.API.Controllers
                 return BadRequest();
             }
 
-            return Ok(data);
+            return Ok(new ApiResponse<TokenResponseDto>
+            {
+                Data = data,
+                StatusCode = StatusCodes.Status200OK
+            });
         }
+
+
 
     }
 }

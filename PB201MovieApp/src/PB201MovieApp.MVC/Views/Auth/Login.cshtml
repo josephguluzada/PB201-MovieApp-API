@@ -1,0 +1,11 @@
+﻿@using PB201MovieApp.MVC.ViewModels.AuthVMs
+@model UserLoginVM
+
+<div class="container">
+    <form method="post">
+        <input asp-for="UserName" placeholder="Username"/>
+        <input asp-for="Password" placeholder="Password" />
+        <input asp-for="RememberMe"/>
+        <button type="submit">Login</button>
+    </form>
+</div>

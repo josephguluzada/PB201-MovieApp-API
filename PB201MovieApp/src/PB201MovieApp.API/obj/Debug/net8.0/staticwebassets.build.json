@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "42p1EpnU0vJ6A2mR2IDE1nujjd0CVxjx9ASyvbMI1Vo=",
+  "Hash": "6Yzv4OJ4beIe5Bmb5A+WKSJpzyY6WqzbZxZC1qFwBSc=",
   "Source": "PB201MovieApp.API",
   "BasePath": "_content/PB201MovieApp.API",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\wwwroot\\Uploads\\027ab981-360d-499e-9a21-66e3951294c248e4f201-b6fd-4170-a86c-3b6fae625f04product-details-5.jpg",
+      "SourceId": "PB201MovieApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\wwwroot\\",
+      "BasePath": "_content/PB201MovieApp.API",
+      "RelativePath": "Uploads/027ab981-360d-499e-9a21-66e3951294c248e4f201-b6fd-4170-a86c-3b6fae625f04product-details-5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\027ab981-360d-499e-9a21-66e3951294c248e4f201-b6fd-4170-a86c-3b6fae625f04product-details-5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\wwwroot\\Uploads\\961ee410-6f4e-4473-a0bb-fec1e3f218ba3e8c87aa-6469-43dd-b20d-832b655744b5product-1.jpg",
+      "SourceId": "PB201MovieApp.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\wwwroot\\",
+      "BasePath": "_content/PB201MovieApp.API",
+      "RelativePath": "Uploads/961ee410-6f4e-4473-a0bb-fec1e3f218ba3e8c87aa-6469-43dd-b20d-832b655744b5product-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\961ee410-6f4e-4473-a0bb-fec1e3f218ba3e8c87aa-6469-43dd-b20d-832b655744b5product-1.jpg"
+    },
     {
       "Identity": "C:\\Users\\asus\\Desktop\\PB201-MovieApp-API\\PB201MovieApp\\src\\PB201MovieApp.API\\wwwroot\\Uploads\\e3080585-a92c-4121-b77c-8b3dc9b45100product-9.jpg",
       "SourceId": "PB201MovieApp.API",
